@@ -8,6 +8,9 @@ elif sol == "-":
 elif sol == "*":
     print(num1 * num2)
 elif sol == "/":
-    print(num1 / num2)
+    if num2 == 0:
+        print("el divisor debe de ser distinto de CERO!")
+    else:
+        print(num1 / num2
 else:
     print("Try again!")
